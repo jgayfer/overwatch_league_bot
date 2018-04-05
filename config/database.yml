@@ -1,0 +1,12 @@
+default: &default
+  host: localhost
+  adapter: sqlite3
+  encoding: utf-8
+
+development:
+  <<: *default
+  database: db/development.sqlite3
+
+production:
+  <<: *default
+  database: db/production.sqlite3
