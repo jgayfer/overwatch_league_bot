@@ -10,6 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20180419212644) do
+
+  create_table "servers", force: :cascade do |t|
+    t.bigint "server_id"
+    t.bigint "match_channel_id"
+    t.date "last_announced"
+    t.string "locale", default: "en"
+  end
 
 end
