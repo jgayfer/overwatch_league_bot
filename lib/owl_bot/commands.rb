@@ -1,8 +1,10 @@
+require_relative 'commands/match_announce'
 require_relative 'commands/ping'
 
 module OWLBot
   module Commands
-    @commands = [Ping]
+    @commands = [MatchAnnounce,
+                 Ping]
 
     def self.include!
       @commands.each do |command|
