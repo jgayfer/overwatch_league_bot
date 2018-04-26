@@ -2,11 +2,11 @@ require 'active_record'
 require 'discordrb'
 require 'yaml'
 
-require_relative 'overwatch_league_bot/commands'
-require_relative 'overwatch_league_bot/events'
-require_relative 'overwatch_league_bot/version'
+require_relative 'owl_bot/commands'
+require_relative 'owl_bot/events'
+require_relative 'owl_bot/version'
 
-module OverwatchLeagueBot
+module OWLBot
   environment = ENV['ENV'] || 'development'
   bot_config = YAML.load_file('config/bot.yml')
   db_config = YAML.load_file('config/database.yml')

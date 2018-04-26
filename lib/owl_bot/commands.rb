@@ -1,12 +1,12 @@
 require_relative 'commands/ping'
 
-module OverwatchLeagueBot
+module OWLBot
   module Commands
     @commands = [Ping]
 
     def self.include!
       @commands.each do |command|
-        OverwatchLeagueBot::BOT.include!(command)
+        OWLBot::BOT.include!(command)
       end
     end
   end

@@ -1,4 +1,4 @@
-module OverwatchLeagueBot
+module OWLBot
   module Commands
     module Ping
       extend Discordrb::Commands::CommandContainer

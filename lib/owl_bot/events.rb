@@ -1,12 +1,12 @@
 require_relative 'events/ready'
 
-module OverwatchLeagueBot
+module OWLBot
   module Events
     @events = [Ready]
 
     def self.include!
       @events.each do |event|
-        OverwatchLeagueBot::BOT.include!(event)
+        OWLBot::BOT.include!(event)
       end
     end
   end

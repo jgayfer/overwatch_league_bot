@@ -1,4 +1,4 @@
-module OverwatchLeagueBot
+module OWLBot
   module Events
     module Ready
       extend Discordrb::EventContainer
