@@ -1,4 +1,4 @@
-require_relative '../models/server'
+require 'owl_bot/models/server'
 
 module OWLBot
   module Commands

@@ -1,4 +1,4 @@
-require_relative 'events/ready'
+require 'owl_bot/events/ready'
 
 module OWLBot
   module Events

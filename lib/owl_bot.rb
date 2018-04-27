@@ -1,10 +1,12 @@
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+
 require 'active_record'
 require 'discordrb'
 require 'yaml'
 
-require_relative 'owl_bot/commands'
-require_relative 'owl_bot/events'
-require_relative 'owl_bot/version'
+require 'owl_bot/commands'
+require 'owl_bot/events'
+require 'owl_bot/version'
 
 module OWLBot
   environment = ENV['ENV'] || 'development'

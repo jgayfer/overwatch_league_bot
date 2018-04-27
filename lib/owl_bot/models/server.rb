@@ -1,4 +1,4 @@
-require_relative 'base'
+require 'owl_bot/models/base'
 
 module OWLBot
   module Models

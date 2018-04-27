@@ -1,5 +1,5 @@
-require_relative 'commands/match_announce'
-require_relative 'commands/ping'
+require 'owl_bot/commands/match_announce'
+require 'owl_bot/commands/ping'
 
 module OWLBot
   module Commands
