@@ -2,3 +2,4 @@ bot.yml
 .bundle
 vendor
 *.sqlite3
+coverage
