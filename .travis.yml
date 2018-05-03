@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.3.7
+- 2.5.1
 addons:
   ssh_known_hosts: 207.246.83.219
 before_deploy:
