@@ -1,8 +1,6 @@
 require 'simplecov'
 
-SimpleCov.start do
-  minimum_coverage(100)
-end
+SimpleCov.start
 
 require 'discordrb'
 require 'active_record'
