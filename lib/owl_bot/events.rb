@@ -4,9 +4,9 @@ module OWLBot
   module Events
     @events = [Ready]
 
-    def self.include!
+    def self.include!(bot)
       @events.each do |event|
-        OWLBot::BOT.include!(event)
+        bot.include!(event)
       end
     end
   end

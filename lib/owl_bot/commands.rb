@@ -6,9 +6,9 @@ module OWLBot
     @commands = [MatchAnnounce,
                  Ping]
 
-    def self.include!
+    def self.include!(bot)
       @commands.each do |command|
-        OWLBot::BOT.include!(command)
+        bot.include!(command)
       end
     end
   end
