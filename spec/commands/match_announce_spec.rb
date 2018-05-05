@@ -26,5 +26,12 @@ RSpec.describe String do
       server = OWLBot::Models::Server.find_by(server_id: server_id)
       expect(server.match_channel_id).to eq channel_id
     end
+
+    context 'in a private message' do
+      before { channel.type = 1 }
+      it 'displays an error message' do
+        expect(subject).to eq 'That command is not available in a private message.'
+      end
+    end
   end
 end

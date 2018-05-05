@@ -1,1 +1,2 @@
+no_pm: "That command is not available in a private message."
 match_announce_enabled: "Match announce has been enabled in this channel."
