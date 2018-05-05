@@ -15,14 +15,14 @@ deploy:
   - provider: script
     skip_cleanup: true
     script:
-      rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/ root@207.246.83.219:~/production --exclude vendor coverage --ignore-existing;
+      rsync -r --quiet $TRAVIS_BUILD_DIR/ root@207.246.83.219:~/production --exclude vendor;
       ssh root@207.246.83.219 systemctl restart production.service;
     on:
       branch: master
   - provider: script
     skip_cleanup: true
     script:
-      rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/ root@207.246.83.219:~/staging --exclude vendor coverage --ignore-existing;
+      rsync -r --quiet $TRAVIS_BUILD_DIR/ root@207.246.83.219:~/staging --exclude vendor;
       ssh root@207.246.83.219 systemctl restart staging.service;
     on:
       branch: staging
