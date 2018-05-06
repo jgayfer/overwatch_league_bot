@@ -14,7 +14,7 @@ Initialize the database:
 bundle exec rake db:migrate
 ```
 
-Make a new file at `config/bot.yml` and add your bot's token to it. You can use `config/example.bot.yml` as a guide for how this file should look.
+Make a new file at `config/bot.yml` and add your bot's token to it. You can use [`config/example.bot.yml`](config/example.bot.yml) as a guide for how this file should look.
 
 Run the bot!
 ```
