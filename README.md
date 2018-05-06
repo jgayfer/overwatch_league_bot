@@ -4,21 +4,21 @@ Overwatch League Bot is a Discord bot that deals with everything related to the 
 
 ## Setup Guide
 
+Install dependencies:
 ```
 bundle install
-bundle exec rake db:create
 ```
 
-If a previous database already exists, migrations may need to be run
-
+Initialize the database:
 ```
-bundle exec db:migrate
+bundle exec rake db:migrate
 ```
 
-Once the database is initialized, the bot can be run with
+Make a new file at `config/bot.yml` and add your bot's token to it. You can use `config/example.bot.yml` as a guide for how this file should look.
 
+Run the bot!
 ```
-bundle exec ruby lib/overwatch_league_bot.rb
+bundle exec ruby app.rb
 ```
 
 ## Contributing
