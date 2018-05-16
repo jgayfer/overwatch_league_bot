@@ -1,0 +1,375 @@
+{
+    "data": {
+        "liveMatch": {
+            "id": 10451,
+            "competitors": [
+                {
+                    "id": 4404,
+                    "availableLanguages": [
+                        "en",
+                        "zh-tw",
+                        "zh-cn",
+                        "th",
+                        "ko",
+                        "ru",
+                        "ja",
+                        "pt"
+                    ],
+                    "handle": "san-francisco.3862",
+                    "name": "San Francisco Shock",
+                    "homeLocation": "San Francisco, CA",
+                    "primaryColor": "fc4c02",
+                    "secondaryColor": "75787b",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "SFS",
+                    "addressCountry": "US",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/YO24NN5KAOFL1508792362791.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/0SY7LHKHV86R1507822883113.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/0SY7LHKHV86R1507822883113.svg",
+                    "type": "TEAM"
+                },
+                {
+                    "id": 4409,
+                    "availableLanguages": [
+                        "en",
+                        "zh-tw",
+                        "it",
+                        "ru",
+                        "ja",
+                        "zh-cn",
+                        "th",
+                        "ko",
+                        "es-es",
+                        "es-mx",
+                        "pt"
+                    ],
+                    "handle": "seoul.1029",
+                    "name": "Seoul Dynasty",
+                    "homeLocation": "Seoul",
+                    "primaryColor": "aa8a00",
+                    "secondaryColor": "000000",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "SEO",
+                    "addressCountry": "KR",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/LHRSIW3NWH211508792362796.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/page_media/E9MU0AK0JIXT1507858876249.svg",
+                    "type": "TEAM"
+                }
+            ],
+            "scores": [
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "conclusionValue": 4,
+            "conclusionStrategy": "MINIMUM",
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "attributes": {},
+            "games": [
+                {
+                    "id": 9880,
+                    "number": 1,
+                    "attributes": {
+                        "map": "blizzard-world",
+                        "mapGuid": "0x080000000000075E"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                },
+                {
+                    "id": 9882,
+                    "number": 2,
+                    "attributes": {
+                        "map": "horizon-lunar-colony",
+                        "mapGuid": "0x08000000000006D3"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                },
+                {
+                    "id": 9884,
+                    "number": 3,
+                    "attributes": {
+                        "map": "oasis",
+                        "mapGuid": "0x080000000000069E"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                },
+                {
+                    "id": 9886,
+                    "number": 4,
+                    "attributes": {
+                        "map": "gibraltar",
+                        "mapGuid": "0x0800000000000184"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                }
+            ],
+            "clientHints": [],
+            "bracket": {
+                "id": 2733,
+                "matchConclusionValue": 4,
+                "matchConclusionStrategy": "MINIMUM",
+                "winners": 4,
+                "teamSize": 6,
+                "repeatableMatchUps": 0,
+                "stage": {
+                    "id": 4671,
+                    "availableLanguages": [
+                        "en"
+                    ],
+                    "title": "Split 4",
+                    "tournament": {
+                        "id": 3835,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "game": "OVERWATCH",
+                        "featured": false,
+                        "draft": false,
+                        "handle": "tournament-a9f238bb-fb56-dd4e-8f39-0eb66488eeb9",
+                        "title": "Overwatch League - Stage 4",
+                        "series": {
+                            "id": 55
+                        }
+                    }
+                },
+                "type": "OPEN_MATCH",
+                "clientHints": [],
+                "advantageComparing": "AFTER_MATCH",
+                "thirdPlaceMatch": false,
+                "allowDraw": false
+            },
+            "dateCreated": 1507007563144,
+            "flags": [],
+            "handle": "match-857c5f89-e589-f84a-9fcd-417ef8e0485a",
+            "startDate": "2018-05-19T02:45:00.000Z",
+            "endDate": "2018-05-19T05:00:00.000Z",
+            "showStartTime": true,
+            "showEndTime": true,
+            "startDateTS": 1526697900000,
+            "endDateTS": 1526706000000,
+            "youtubeId": "",
+            "wins": [
+                0,
+                0
+            ],
+            "ties": [
+                0,
+                0
+            ],
+            "losses": [
+                0,
+                0
+            ],
+            "videos": [],
+            "timeToMatch": 262504,
+            "liveStatus": "LIVE"
+        },
+        "nextMatch": {
+            "id": 10452,
+            "competitors": [
+                {
+                    "id": 4524,
+                    "availableLanguages": [
+                        "en",
+                        "it",
+                        "ru",
+                        "ja",
+                        "zh-cn",
+                        "th",
+                        "ko",
+                        "es-mx",
+                        "pt",
+                        "fr",
+                        "zh-tw"
+                    ],
+                    "handle": "fusion.2056",
+                    "name": "Philadelphia Fusion",
+                    "homeLocation": "Philadelphia, PA",
+                    "primaryColor": "ff9e1b",
+                    "secondaryColor": "000000",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "PHI",
+                    "addressCountry": "US",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/3JZTLCPH37QD1508792362853.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/LAKZ6R7QEG6S1507822883033.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/LAKZ6R7QEG6S1507822883033.svg",
+                    "type": "TEAM"
+                },
+                {
+                    "id": 4407,
+                    "availableLanguages": [
+                        "en",
+                        "ko",
+                        "ru",
+                        "pt",
+                        "ja",
+                        "zh-tw",
+                        "zh-cn",
+                        "fr",
+                        "th"
+                    ],
+                    "handle": "miami-orlando.6863",
+                    "name": "Florida Mayhem",
+                    "homeLocation": "Florida",
+                    "primaryColor": "feda00",
+                    "secondaryColor": "af272f",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "FLA",
+                    "addressCountry": "US",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/4GO273NATVWM1508792362854.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+                    "type": "TEAM"
+                }
+            ],
+            "scores": [
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "conclusionValue": 4,
+            "conclusionStrategy": "MINIMUM",
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "attributes": {},
+            "games": [
+                {
+                    "id": 9889,
+                    "number": 1,
+                    "attributes": {
+                        "map": "blizzard-world",
+                        "mapGuid": "0x080000000000075E"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                },
+                {
+                    "id": 9890,
+                    "number": 2,
+                    "attributes": {
+                        "map": "horizon-lunar-colony",
+                        "mapGuid": "0x08000000000006D3"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                },
+                {
+                    "id": 9892,
+                    "number": 3,
+                    "attributes": {
+                        "map": "oasis",
+                        "mapGuid": "0x080000000000069E"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                },
+                {
+                    "id": 9894,
+                    "number": 4,
+                    "attributes": {
+                        "map": "dorado",
+                        "mapGuid": "0x08000000000002C3"
+                    },
+                    "attributesVersion": "0.2.0",
+                    "state": "PENDING",
+                    "stats": null
+                }
+            ],
+            "clientHints": [],
+            "bracket": {
+                "id": 2733,
+                "matchConclusionValue": 4,
+                "matchConclusionStrategy": "MINIMUM",
+                "winners": 4,
+                "teamSize": 6,
+                "repeatableMatchUps": 0,
+                "stage": {
+                    "id": 4671,
+                    "availableLanguages": [
+                        "en"
+                    ],
+                    "title": "Split 4",
+                    "tournament": {
+                        "id": 3835,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "game": "OVERWATCH",
+                        "featured": false,
+                        "draft": false,
+                        "handle": "tournament-a9f238bb-fb56-dd4e-8f39-0eb66488eeb9",
+                        "title": "Overwatch League - Stage 4",
+                        "series": {
+                            "id": 55
+                        }
+                    }
+                },
+                "type": "OPEN_MATCH",
+                "clientHints": [],
+                "advantageComparing": "AFTER_MATCH",
+                "thirdPlaceMatch": false,
+                "allowDraw": false
+            },
+            "dateCreated": 1507007563152,
+            "flags": [],
+            "handle": "match-fdfd3823-f7cf-9b4d-8833-e0db7b503349",
+            "startDate": "2018-05-19T20:00:00.000Z",
+            "endDate": "2018-05-19T22:00:00.000Z",
+            "showStartTime": true,
+            "showEndTime": true,
+            "startDateTS": 1526760000000,
+            "endDateTS": 1526767200000,
+            "youtubeId": "",
+            "wins": [
+                0,
+                0
+            ],
+            "ties": [
+                0,
+                0
+            ],
+            "losses": [
+                0,
+                0
+            ],
+            "videos": [],
+            "timeToMatch": 61837496,
+            "liveStatus": "UPCOMING"
+        }
+    },
+    "meta": {
+        "strings": {
+            "owl.live-match.upcoming": "Live Soon",
+            "owl.live-match.now": "Live Now",
+            "owl.live-stream.game": "Game ##",
+            "owl.live-stream.game-of": "Game ## of ##",
+            "owl.live-stream.results": "Results",
+            "owl.live-stream.view-more": "View More",
+            "owl.live-stream.view-less": "View Less",
+            "owl.live-stream.phoenix-disclaimer": "For higher video quality, watch on <a rel=\"external\" href=\"https://www.overwatchleague.com\">overwatchleague.com</a>",
+            "owl.rewards.info.description": "<a href=\"{0}\">Log in now</a> to earn rewards for tuning in. <a href=\"{1}\">Geographic restrictions apply</a>.",
+            "owl.rewards.info.description.logged-in": "You are logged in to earn <a href=\"{0}\">viewership rewards</a>. Geographic restrictions apply."
+        }
+    }
+}

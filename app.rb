@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/lib')
 
 require 'owl_bot'
+require 'overwatch_league'
 require 'active_record'
 require 'yaml'
 
@@ -18,6 +19,15 @@ bot = Discordrb::Commands::CommandBot.new(
   prefix: '!'
 )
 
+owl_client = OverwatchLeague.new
+match_announcer = OWLBot::MatchAnnouncer.new(bot, owl_client)
+
 OWLBot::Commands.include!(bot)
 OWLBot::Events.include!(bot)
-bot.run
+
+bot.run(:async)
+
+loop do
+  match_announcer.announce_live_match
+  sleep 10
+end

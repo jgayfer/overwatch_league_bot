@@ -5,3 +5,4 @@ require 'discordrb'
 
 require 'owl_bot/commands'
 require 'owl_bot/events'
+require 'owl_bot/match_announcer'
