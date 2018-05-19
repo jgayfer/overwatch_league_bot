@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.5.1'
-
 gem 'activerecord'
 gem 'discordrb'
-gem 'overwatch_league'
+gem 'overwatch_league', '1.1.0'
 gem 'rake'
 gem 'rspec'
 gem 'simplecov'
