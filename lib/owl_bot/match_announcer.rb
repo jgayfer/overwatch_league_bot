@@ -1,3 +1,4 @@
+require 'owl_bot/embeds/match_start'
 require 'owl_bot/models/live_match'
 require 'owl_bot/models/server'
 
@@ -39,8 +40,9 @@ module OWLBot
     end
 
     def send_match_start_messages(match)
+      match_embed = OWLBot::Embeds::MatchStart.call(match)
       OWLBot::Models::Server.where.not(match_channel_id: nil).each do |server|
-        @bot.send_message(server.match_channel_id, "Match start! ID: #{match.id}")
+        @bot.send_message(server.match_channel_id, '', false, match_embed)
       end
     end
   end

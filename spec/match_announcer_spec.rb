@@ -5,15 +5,22 @@ RSpec.describe OWLBot::MatchAnnouncer do
   let(:client) { OverwatchLeague.new }
   let(:bot) { BotMock.new }
   let(:match_announcer) { OWLBot::MatchAnnouncer.new(bot, client) }
+  let(:match_embed) { Discordrb::Webhooks::Embed.new }
+
   let(:match_in_progress) { fixture('match_in_progress.json').chomp }
   let(:match_not_started) { fixture('match_not_started.json').chomp }
   let(:no_match) { fixture('no_match.json').chomp }
+
   let(:channel_id) { 9999 }
   let(:live_match_id) { 10451 }
   let(:not_live_match_id) { 8888 }
 
   before(:each) { OWLBot::Models::Server.create(match_channel_id: channel_id) }
   after(:each) { OWLBot::Models::Server.delete_all }
+
+  before do
+    allow(OWLBot::Embeds::MatchStart).to receive(:call) { match_embed }
+  end 
 
   describe '#initialize' do
     subject { match_announcer }
@@ -45,7 +52,8 @@ RSpec.describe OWLBot::MatchAnnouncer do
         after { OWLBot::Models::LiveMatch.delete_all }
 
         it 'sends a message to the subscribed channels' do
-          expect(bot).to receive(:send_message)
+          expect(bot).to receive(:send_message).
+            with(channel_id, '', false, match_embed)
           subject
         end
 
@@ -60,7 +68,8 @@ RSpec.describe OWLBot::MatchAnnouncer do
         after { OWLBot::Models::LiveMatch.delete_all }
 
         it 'sends a message to the subscribed channels' do
-          expect(bot).to receive(:send_message)
+          expect(bot).to receive(:send_message).
+            with(channel_id, '', false, match_embed)
           subject
         end
 
