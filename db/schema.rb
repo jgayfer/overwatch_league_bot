@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180514202245) do
+ActiveRecord::Schema.define(version: 2018_05_14_202245) do
 
   create_table "live_matches", force: :cascade do |t|
     t.integer "match_id"
